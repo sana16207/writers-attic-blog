@@ -1,5 +1,5 @@
 import { Link, useRouter } from "@tanstack/react-router";
-import { useAuth } from "@/lib/auth";
+import { useAuth } from "../lib/auth";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,

@@ -5,7 +5,7 @@ import { Loader } from "@/components/Loader";
 import { CommentBox } from "@/components/CommentBox";
 import { api, type Story, type Comment } from "@/lib/api";
 import { SAMPLE_STORIES, SAMPLE_COMMENTS } from "@/lib/sample-data";
-import { useAuth } from "@/lib/auth";
+import { useAuth } from "../lib/auth";
 import { Heart, Bookmark, ArrowLeft } from "lucide-react";
 
 export const Route = createFileRoute("/story/$id")({

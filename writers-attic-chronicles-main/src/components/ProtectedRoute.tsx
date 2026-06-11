@@ -1,6 +1,6 @@
 import { useNavigate } from "@tanstack/react-router";
 import { useEffect, type ReactNode } from "react";
-import { useAuth } from "@/lib/auth";
+import { useAuth } from "../lib/auth";
 import { Loader } from "./Loader";
 
 export function ProtectedRoute({ children, adminOnly = false }: { children: ReactNode; adminOnly?: boolean }) {

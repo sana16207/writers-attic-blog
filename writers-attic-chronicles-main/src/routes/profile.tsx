@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { PageShell } from "@/components/PageShell";
 import { ProtectedRoute } from "@/components/ProtectedRoute";
 import { StoryCard } from "@/components/StoryCard";
-import { useAuth } from "@/lib/auth";
+import { useAuth } from "../lib/auth";
 import { SAMPLE_STORIES } from "@/lib/sample-data";
 
 export const Route = createFileRoute("/profile")({
